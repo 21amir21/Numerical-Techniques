@@ -1,4 +1,4 @@
-% This is Lagrange interpolation // Lab 4
+% This is Lagrange interpolation
 syms z;
 Xs = input("Enter the values of X: ");
 Ys = input("Enter the values of Y: ");

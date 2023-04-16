@@ -1,8 +1,8 @@
 % This Bisection Method 
 
 f = input("Enter the function: ");
-a=input("Enter a: ");
-b=input("Enter b: ");
+a = input("Enter a: ");
+b = input("Enter b: ");
 error = input("Enter the error limit: ");
 
 x1 = (a + b) / 2;

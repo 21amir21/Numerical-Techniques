@@ -1,9 +1,9 @@
 % Linear Least Square
 
-Xs=input("Enter x points in vector form: ");
-Ys=input("Enter y points in vector form: ");
+Xs = input("Enter x points in vector form: ");
+Ys = input("Enter y points in vector form: ");
 n = length(Xs);
-syms x
+syms x;
 
 % AX = B, where B is a column vector.
 % X = linsolve(A,B) solves the matrix equation AX = B, where B is a column vector.

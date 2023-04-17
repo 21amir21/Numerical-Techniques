@@ -2,7 +2,7 @@
 syms z;
 Xs = input("Enter the values of X: ");
 Ys = input("Enter the values of Y: ");
-x = input("Enter the value you want to get its corresponding Y: ");
+x = input("Enter the value of X you want to get its corresponding Y: ");
 n = length(Ys);
 L = sym(1 : n);
 
@@ -22,5 +22,5 @@ for i = 1 : n
     P = P + L(i) * Ys(i);
 end
 
-disp(subs(P, x));
-
+% vpa() function is used to get the answer in decimal form
+disp(vpa(subs(P, x)));

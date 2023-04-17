@@ -25,3 +25,8 @@ Notes of my Numerical Techniques module at University - also learning MATLAB
 >   - You can then use the variable `x` in the MATLAB workspace for symbolic workflow, such as finding the roots of a polynomial.
 >
 >     ![Example](images/solveExample.JPG)
+> - `linsolve()` takes two matrices and solve their equation
+>   - `X = linsolve(A,B)` solves the matrix equation AX = B, where B is a column vector.
+>
+>     ![Example](images/linsolveExample.JPG)
+

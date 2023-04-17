@@ -1,5 +1,5 @@
 # Numerical-Techniques
-Codes of my Numerical Techniques module at University - also learning MATLAB
+Notes of my Numerical Techniques module at University - also learning MATLAB
 
 
 ## NOTES :-
@@ -23,4 +23,4 @@ Codes of my Numerical Techniques module at University - also learning MATLAB
 > ```
 > - `syms` The syms function creates a variable dynamically. For example, `syms x` creates the symbolic variable `x` and automatically assigns it to a MATLAB variable with the same name.
 >   - You can then use the variable `x` in the MATLAB workspace for symbolic workflow, such as finding the roots of a polynomial.
->   - ![Example](images/solveExample.jpg)
+>     ![Example](images/solveExample.JPG)
